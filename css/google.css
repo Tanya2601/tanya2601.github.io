@@ -1,0 +1,168 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+img {
+	max-width:100%;
+    height:auto;
+}
+
+body {
+	font: 100%/1.5em Arial,Helvetica, sans-serif;
+	color:#FFFFFF;
+	min-height: 100%;
+}
+	a{
+	color:#000000;
+	font-weight:500;
+	
+	}
+	a:link { 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   } 
+   a:visited { text-decoration: none; } 
+   a:active { text-decoration: none; }
+   a:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: #3e3b9b; /* Цвет ссылки */}
+	
+	.container{
+	
+	width: 98%;
+	/*background:#e2e2e2;*/
+	margin: 0 auto;
+	height: calc(100vh - 30px);
+	min-height: calc(100hv-40px);
+	}
+	.section:after {
+		content: "";
+		display: table;
+		clear: both;
+}
+.section
+{
+	
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+}
+	.f1{
+	float:left;
+	}
+	.f2{
+	float:right;
+	}
+	
+	.fig{
+	margin-top:4%;
+	text-align:center;
+	}
+	.headerlinks
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 20%;
+		/*float: right;
+	    display:inline;
+		margin-left:85%;*/
+		
+	}
+	.headerpic
+	{
+		width: 30px;
+	}
+	
+	.footer {
+		height: 40px;
+		/*background: red;*/
+	
+}
+	
+	.parent{
+  /*background: #EEEFF1;*/
+  box-sizing: border-box;
+  width: 40%;
+ 
+  
+ clear:both;
+
+  margin: 0px auto;
+  padding: 0px 0px;
+  text-align: center;
+}
+.parent:after {
+	content: "";
+  display: table;
+  clear: both;
+}
+
+.child {
+    box-sizing: border-box;
+	float:left;
+	width:32%;
+	background:#a3a4ba;
+	height: 170px;
+	margin: 0 0 1% 1%;
+	position: relative;
+	border-radius:4%;
+}
+.favicon
+{
+	width: 30px;
+	height:30px;
+	
+	
+}
+
+.title{
+	line-height:30px;
+	
+}
+	
+.pic
+{
+	background:#d7d8ea;
+	width:calc(100% - 4px);
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+}
+.icons
+{
+	display:flex;
+	justify-content:center;
+}
+.images
+{
+	width:55%;
+}
+.imageok
+{
+	width:56%;
+}
+
+.main-image
+{
+	
+}
+.main-image, .search-container {
+	text-align: center;
+	margin-bottom:2%;
+}
+.search-field {
+	width: 30%;
+	font-size: 24px;
+	padding: 10px 5px;
+}
+ul li
+{display:inline;
+margin-left:3%;
+	
+}
